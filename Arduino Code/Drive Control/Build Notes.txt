@@ -1,0 +1,8 @@
+11/26:
+- Probably going to need to create a new PPM library
+  - Methods:
+    - Utilize a timer interrupt to keep CPU from being bound up, for a given speed the timer interrupt may need rewriting but the time between pulses will remain constant
+    - Utilize existing PWM library and trigger a latch on falling edges (slower but may be easier to follow)
+- Need to finalize radio type so that code can be written
+- Need to choose chips for reading voltage and current at critical locations
+- Need to push diagrams to repository
